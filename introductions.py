@@ -7,4 +7,9 @@ def introduceBen():
 def introduceNishant():
     print "What up guys, Nishant's in the house."
 
+def main():
+    introduceMax()
+    introduceBen()
+    introduceNishant()
 
+if __name__ == "__main__": main()
